@@ -66,7 +66,7 @@ def export_to_csv(nodes, links, dir_path, base_file_name):
     return
 
 
-iwdb_path = r'D:\Office\SCADAWatch\__UserFiles\PurpleTown_SW\__InfoWater Model\PURPLETOWN_SW.IWDB'
+iwdb_path = r'D:\__InfoWater Model\PURPLETOWN_SW.IWDB'
 nodes, links = get_network(iwdb_path)
 
 
