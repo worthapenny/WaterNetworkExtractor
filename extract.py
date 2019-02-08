@@ -27,7 +27,7 @@ def get_network(iwdb_path):
     if not nodes is None:
         nodes = nodes[["ID"]]
 
-    # Read Node files
+    # Read Link files
     file_path = os.path.join(iwdb_path, "LINK.DBF")
     if not os.path.exists(file_path):
         raise FileNotFoundError('Given path "%s" is not valid.' % file_path)
